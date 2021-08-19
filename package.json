@@ -1,0 +1,17 @@
+{
+  "name": "serverless_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "./node_modules/.bin/serverless offline -s dev",
+    "debug": "set SLS_DEBUG=* && node --inspect /usr/local/lib/node_modules/serverless/bin/serverless offline -s dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.970.0",
+    "axios": "^0.21.1"
+  }
+}
